@@ -1,14 +1,27 @@
 # Getting Started
 
-### Reference Documentation
-For further reference, please consider the following sections:
+## Prerequisites
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.2.2.RELEASE/maven-plugin/)
-* [WebSocket](https://docs.spring.io/spring-boot/docs/2.2.2.RELEASE/reference/htmlsingle/#boot-features-websockets)
+- [Java SE Development Kit (JDK) 11](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
+- [Maven](https://maven.apache.org/download.cgi)
+- [Git](https://git-scm.com/downloads)
 
-### Guides
-The following guides illustrate how to use some features concretely:
+## Cloning the repository
 
-* [Using WebSocket to build an interactive web application](https://spring.io/guides/gs/messaging-stomp-websocket/)
+Use Git from command line:
 
+```
+git clone https://github.com/arialfred/chat-backend.git
+```
+
+or use some visual Git client, Sourcetree for example.
+
+## Running the application
+
+Change the current folder to the project root folder (chat-backend) and use following command to run the application:
+
+```
+mvn spring-boot:run
+```
+
+The application is set up to listen on port 8081 by default.
